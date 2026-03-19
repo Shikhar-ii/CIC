@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  background: #231F20;
+  color: white;
+  padding: 15px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-banner {
+  background: #D2AC2A;
+  text-align: center;
+}
+
+.nav-btn {
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-btn:hover {
+  background: black;
+  color: gold;
+}
+
+.content-section {
+  padding: 80px 20px;
+}
+
+.hero-banner {
+  background: black;
+  color: gold;
+  padding: 50px;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.grid img {
+  width: 200px;
+}
+
+.scroll-row {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.scroll-row img {
+  height: 200px;
+}
+
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
