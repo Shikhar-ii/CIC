@@ -1,123 +1,931 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WVSU Cybersecurity</title>
-
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WVSU Cybersecurity Department</title>
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/yh-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-10V4XgVQbWcv16O3MHuvb6jVWeItPxX2VINeodIZ6Tn6PvxI6Bfq5lHppZrgcWRjKs64+h0P4R9YQWZl+7kmg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <details class="quick-nav">
+        <summary class="quick-nav__toggle" aria-label="Open quick navigation"></summary>
+        <nav class="quick-nav__panel" aria-label="Quick navigation menu">
+            <a href="#home">Home</a>
+            <a href="#opportunities">Opportunities</a>
+            <a href="#googleclinic">Google Clinic</a>
+            <a href="#research">Research</a>
+            <a href="#club">Club</a>
+            <a href="#yellowhackets">YellowH@ckets</a>
+            <a href="#get-involved">Get Involved</a>
+            <a href="#newsletter">Newsletter</a>
+            <a href="#labs">Labs</a>
+            <a href="#social-media">Social Media</a>
+            <a href="#knowledge-base">Knowledge Base</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#grants">Grants</a>
+            <a href="#academics">Academics</a>
+        </nav>
+    </details>
+    <main class="main-content">
+        <section id="home" class="content-section active">
+            <div class="hero-banner">
+                <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/yh-icon_transparent_notext.png" alt="YellowH@ckets emblem" class="hero-banner__mark">
+                <h1>Welcome to the</h1>
+                <h2>Cybersecurity Innovation Center</h2>
+                <p>Innovate · Educate · Collaborate</p>
+            </div>
 
-<header class="header">
-  <h2>Cybersecurity Innovation Center</h2>
-</header>
+            <div class="content-grid">
+                <div class="about-section">
+                    <div class="about-content">
+                        <div class="about-media about-media--wide">
+                            <div class="about-media-shell">
+                                <p class="about-media-kicker">Inside the Center</p>
+                                <div class="about-media-frame">
+                                    <iframe
+                                        class="about-video"
+                                        src="https://www.youtube.com/embed/FrJ-SMWztzQ?rel=0"
+                                        title="Cybersecurity Innovation Center overview video"
+                                        loading="lazy"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin"
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
 
-<nav class="nav">
-  <a href="#home">Home</a>
-  <a href="#contributions">Contributions</a>
-  <a href="#achievements">Achievements</a>
-  <a href="#CyberClinic">CyberClinic</a>
-  <a href="#programs">Programs</a>
-  <a href="#contact">Contact</a>
-</nav>
+                        <div class="about-text about-text--aside">
+                            <p class="section-kicker section-kicker--dark">About the Center</p>
+                            <h2>About Us</h2>
+                            <p>The Cybersecurity Innovation Center at West Virginia State University advances cybersecurity education, research, and real-world innovation through hands-on labs, collaborative projects, and student-centered learning.</p>
+                            <p>Its work emphasizes critical infrastructure protection, especially in agriculture and other essential sectors, while helping position WVSU as a leader in cybersecurity among HBCUs.</p>
+                        </div>
+                    </div>
+                </div>
 
-<!-- HOME -->
-<section id="home">
-  <h1>Welcome</h1>
+                <nav class="nav-banner" aria-label="Section navigation">
+                    <div class="nav-container">
+                        <a href="#opportunities" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/opportunities-icon.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>Opportunities</span></a>
+                        <a href="#googleclinic" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/google_clinic-icon.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>Google Clinic</span></a>
+                        <a href="#research" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/research-icon.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>Research</span></a>
+                        <a href="#club" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/club-icon.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>Club</span></a>
+                        <a href="#yellowhackets" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/Yellowhackets-icon.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>YellowH@ckets</span></a>
+                        <a href="#get-involved" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/get_involved-icon.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>Get Involved</span></a>
+                        <a href="#newsletter" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/newsletter-icon.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>Newsletter</span></a>
+                        <a href="#labs" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/Labs.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>Labs</span></a>
+                        <a href="#social-media" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/social_media-icon.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>Social Media</span></a>
+                        <a href="#knowledge-base" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/knowledge_base-icon.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>Knowledge Base</span></a>
+                        <a href="#achievements" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/achievement-icon.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>Achievements</span></a>
+                        <a href="#grants" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/grants-icon.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>Grants</span></a>
+                        <a href="#academics" class="nav-btn"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774835927/nav-icons/academics-icon.png" alt="" class="nav-btn__icon" aria-hidden="true"><span>Academics</span></a>
+                    </div>
+                </nav>
+            </div>
+        </section>
 
-  <video controls>
-    <source src="https://res.cloudinary.com/dfd85ni55/video/upload/v1761951751/Dr.Ali-1_bao9ch.mp4">
-  </video>
+        <section id="labs" class="content-section story-section story-section--dark">
+            <div class="story-shell">
+                <div class="story-header">
+                    <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/Labs.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">Hands-On Infrastructure</p>
+                        <h2>Labs</h2>
+                    </div>
+                </div>
+                <p class="section-intro section-intro--light">Select a lab you're interested in to learn more.</p>
+                <div class="lab-grid">
+                    <article class="lab-card">
+                        <a class="lab-card__link" href="#lab-cyberhive-dialog" aria-label="Open CyberHive lab details">
+                            <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/labs/Cyberhive.jpg" alt="CyberHive lab" class="lab-card__image">
+                            <span class="lab-card__overlay">
+                                <span class="lab-card__title">CyberHive</span>
+                            </span>
+                        </a>
+                    </article>
+                    <article class="lab-card">
+                        <a class="lab-card__link" href="#lab-kite-dialog" aria-label="Open KITE Lab details">
+                            <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/labs/Kite.jpg" alt="KITE Lab" class="lab-card__image">
+                            <span class="lab-card__overlay">
+                                <span class="lab-card__title">KITE</span>
+                            </span>
+                        </a>
+                    </article>
+                    <article class="lab-card">
+                        <a class="lab-card__link" href="#lab-robotics-dialog" aria-label="Open Robotics lab details">
+                            <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/labs/Robotics.jpg" alt="Robotics" class="lab-card__image">
+                            <span class="lab-card__overlay">
+                                <span class="lab-card__title">Robotics</span>
+                            </span>
+                        </a>
+                    </article>
+                    <article class="lab-card">
+                        <a class="lab-card__link" href="#lab-cybercity-dialog" aria-label="Open Cybercity lab details">
+                            <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/labs/Cybercity.jpg" alt="Cybercity lab" class="lab-card__image">
+                            <span class="lab-card__overlay">
+                                <span class="lab-card__title">Cybercity</span>
+                            </span>
+                        </a>
+                    </article>
+                    <article class="lab-card">
+                        <a class="lab-card__link" href="#lab-honeynet-dialog" aria-label="Open Honeynet lab details">
+                            <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/honeynet-icon.png" alt="Honeynet icon" class="lab-card__image lab-card__image--icon">
+                            <span class="lab-card__overlay">
+                                <span class="lab-card__title">Honeynet</span>
+                            </span>
+                        </a>
+                    </article>
+                </div>
+                <div class="lab-dialog" id="lab-cyberhive-dialog" aria-labelledby="lab-cyberhive-title" aria-modal="true" role="dialog">
+                    <a class="lab-dialog__backdrop" href="#labs" aria-label="Close CyberHive details"></a>
+                    <div class="lab-dialog__panel">
+                        <a class="lab-dialog__close" href="#labs" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/labs/Cyberhive.jpg" alt="CyberHive lab equipment" class="lab-dialog__image">
+                        <div class="lab-dialog__content">
+                            <p class="section-kicker">Lab Profile</p>
+                            <h3 id="lab-cyberhive-title">CyberHive</h3>
+                            <p>CyberHive is the center's IoT embedded systems lab, where students explore connected devices, hardware-aware security testing, and defensive design for smart environments.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lab-dialog" id="lab-kite-dialog" aria-labelledby="lab-kite-title" aria-modal="true" role="dialog">
+                    <a class="lab-dialog__backdrop" href="#labs" aria-label="Close KITE Lab details"></a>
+                    <div class="lab-dialog__panel">
+                        <a class="lab-dialog__close" href="#labs" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/labs/Kite.jpeg" alt="KITE Lab workspace" class="lab-dialog__image">
+                        <div class="lab-dialog__content">
+                            <p class="section-kicker">Lab Profile</p>
+                            <h3 id="lab-kite-title">KITE Lab</h3>
+                            <p>KITE Lab supports applied security experiments around critical infrastructure technologies, resilience testing, and practical prototyping for emerging cyber-physical systems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lab-dialog" id="lab-robotics-dialog" aria-labelledby="lab-robotics-title" aria-modal="true" role="dialog">
+                    <a class="lab-dialog__backdrop" href="#labs" aria-label="Close Robotics and Autonomous Systems details"></a>
+                    <div class="lab-dialog__panel">
+                        <a class="lab-dialog__close" href="#labs" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/labs/Robotics.jpg" alt="Robotics and Autonomous Systems lab" class="lab-dialog__image">
+                        <div class="lab-dialog__content">
+                            <p class="section-kicker">Lab Profile</p>
+                            <h3 id="lab-robotics-title">Robotics and Autonomous Systems</h3>
+                            <p>This lab turns cybersecurity into a physical systems practice space through robotics, autonomous platforms, automation, and hands-on cyber-physical experimentation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lab-dialog" id="lab-cybercity-dialog" aria-labelledby="lab-cybercity-title" aria-modal="true" role="dialog">
+                    <a class="lab-dialog__backdrop" href="#labs" aria-label="Close Cybercity details"></a>
+                    <div class="lab-dialog__panel">
+                        <a class="lab-dialog__close" href="#labs" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/labs/Cybercity.jpg" alt="Cybercity simulation environment" class="lab-dialog__image">
+                        <div class="lab-dialog__content">
+                            <p class="section-kicker">Lab Profile</p>
+                            <h3 id="lab-cybercity-title">Cybercity</h3>
+                            <p>Cybercity is a critical infrastructure penetration testing and defense simulation environment built for realistic training, attack emulation, and resilience-focused exercises.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lab-dialog" id="lab-honeynet-dialog" aria-labelledby="lab-honeynet-title" aria-modal="true" role="dialog">
+                    <a class="lab-dialog__backdrop" href="#labs" aria-label="Close Honeynet details"></a>
+                    <div class="lab-dialog__panel">
+                        <a class="lab-dialog__close" href="#labs" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <div class="lab-dialog__content">
+                            <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/honeynet-icon.png" alt="Honeynet icon" class="lab-dialog__symbol">
+                            <p class="section-kicker">Lab Profile</p>
+                            <h3 id="lab-honeynet-title">Honeynet</h3>
+                            <p>Honeynet is a deliberately vulnerable website designed for testing. It gives students a controlled environment for exploring web attacks, validating detections, and practicing defensive analysis without affecting production systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <p>
-    The Cybersecurity Innovation Center provides hands-on labs and real-world cybersecurity experience.
-  </p>
+        <section id="research" class="content-section story-section story-section--light">
+            <div class="story-shell">
+                <div class="story-header story-header--split">
+                    <div class="story-header__main">
+                        <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/research-icon.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                        <div>
+                            <p class="section-kicker">Focus Areas</p>
+                            <h2>Research</h2>
+                        </div>
+                    </div>
+                    <a class="cta-button research-cta" href="mailto:ali.alsinayyid@wvstateu.edu?subject=Research%20Assistant%20Application">Apply to be an RA</a>
+                </div>
+                <div class="chip-row research-chip-row">
+                    <span class="chip">Cybersecurity</span>
+                    <span class="chip">AI</span>
+                    <span class="chip">Critical Infrastructure</span>
+                    <span class="chip">Agriculture</span>
+                    <span class="chip">Machine Learning</span>
+                    <span class="chip">IoT</span>
+                </div>
+                <p class="section-intro">Research through the CIC connects cybersecurity, AI, and computer science to the protection of critical infrastructure while giving students direct pathways into publishable, applied work.</p>
+                <div class="research-board">
+                    <article class="research-column">
+                        <div class="research-column__header">
+                            <p class="section-kicker section-kicker--dark">Current Research</p>
+                            <h3>Current Research</h3>
+                        </div>
+                        <div class="research-stack">
+                            <article class="research-entry">
+                                <h4>Shikhar Pandey</h4>
+                                <p>Exploring graph neural networks, topological data analysis, quantum algorithms, and mathematical modeling for next-generation computational frameworks.</p>
+                            </article>
+                            <article class="research-entry">
+                                <h4>Sheri Vishnu Vardhan Reddy</h4>
+                                <p>Developing AI-driven intrusion detection approaches for industrial control systems using LSTM autoencoders, hybrid frameworks, and time-series analysis.</p>
+                            </article>
+                            <article class="research-entry">
+                                <h4>Luice Khamboo</h4>
+                                <p>Designing machine learning systems that classify incoming URLs as phishing or legitimate for financial-services protection.</p>
+                            </article>
+                        </div>
+                        <div class="research-column__footer">
+                            <a class="text-link research-more-link" href="#research-current-dialog">Read more</a>
+                        </div>
+                    </article>
+                    <article class="research-column">
+                        <div class="research-column__header">
+                            <p class="section-kicker section-kicker--dark">Published Work</p>
+                            <h3>Published Researches</h3>
+                        </div>
+                        <div class="research-stack research-stack--tight">
+                            <article class="research-entry research-entry--publication">
+                                <h4>Job Scheduler for Streaming Applications in Heterogeneous Distributed Processing Systems</h4>
+                                <p>A. Al-Sinayyid, M. Zhu</p>
+                            </article>
+                            <article class="research-entry research-entry--publication">
+                                <h4>A Literature Survey and Analysis of Defending Cyber Attacks Targeting IoT in Critical Infrastructure</h4>
+                                <p>A. Al-Sinayyid, V.M. Kadiyala Sasidhar, M.J.A. Jewel</p>
+                            </article>
+                            <article class="research-entry research-entry--publication">
+                                <h4>Analytical Study for Cybersecurity Attacks and Defenses Characteristics</h4>
+                                <p>A. Al-Sinayyid, V. Mannuru, M.J.A. Jewel, K. Sasidhar</p>
+                            </article>
+                        </div>
+                        <div class="research-column__footer">
+                            <a class="text-link research-more-link" href="#research-published-dialog">Read more</a>
+                        </div>
+                    </article>
+                    <article class="research-column research-column--team">
+                        <div class="research-column__header">
+                            <p class="section-kicker section-kicker--dark">Research Team</p>
+                            <h3>Research Team</h3>
+                        </div>
+                        <div class="research-team-wall" aria-label="Research team gallery">
+                            <a class="researcher-card" href="#researcher-shikhar-dialog" aria-label="Open Shikhar Pandey profile">
+                                <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/researchers/Shikhar_Pandey.jpg" alt="Shikhar Pandey" class="researcher-card__portrait">
+                                <span class="researcher-card__name">Shikhar Pandey</span>
+                            </a>
+                            <a class="researcher-card" href="#researcher-rohith-dialog" aria-label="Open Rohith Reddy Battula profile">
+                                <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/researchers/Rohit_Battula.png" alt="Rohith Reddy Battula" class="researcher-card__portrait">
+                                <span class="researcher-card__name">Rohith Reddy Battula</span>
+                            </a>
+                            <a class="researcher-card" href="#researcher-sheri-dialog" aria-label="Open Sheri Vishnu Vardhan Reddy profile">
+                                <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/researchers/Sheri_Reddy.png" alt="Sheri Vishnu Vardhan Reddy" class="researcher-card__portrait">
+                                <span class="researcher-card__name">Sheri Vishnu Vardhan Reddy</span>
+                            </a>
+                            <a class="researcher-card" href="#researcher-esther-dialog" aria-label="Open Esther Dhiramo profile">
+                                <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/researchers/Esther_Dhiramo.jpg" alt="Esther Dhiramo" class="researcher-card__portrait">
+                                <span class="researcher-card__name">Esther Dhiramo</span>
+                            </a>
+                            <a class="researcher-card" href="#researcher-luice-dialog" aria-label="Open Luice Khamboo profile">
+                                <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/researchers/Luice_Khamboo.jpg" alt="Luice Khamboo" class="researcher-card__portrait">
+                                <span class="researcher-card__name">Luice Khamboo</span>
+                            </a>
+                            <a class="researcher-card" href="#researcher-vaishnavi-dialog" aria-label="Open Vaishnavi Kottala profile">
+                                <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/researchers/Vaishnavi_Kottala.jpg" alt="Vaishnavi Kottala" class="researcher-card__portrait">
+                                <span class="researcher-card__name">Vaishnavi Kottala</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                <div class="research-dialog" id="research-current-dialog" aria-labelledby="research-current-title" aria-modal="true" role="dialog">
+                    <a class="research-dialog__backdrop" href="#research" aria-label="Close current research list"></a>
+                    <div class="research-dialog__panel research-dialog__panel--list">
+                        <a class="research-dialog__close" href="#research" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <div class="research-dialog__content">
+                            <p class="section-kicker section-kicker--dark">Current Research</p>
+                            <h3 id="research-current-title">Current Research Team Projects</h3>
+                            <div class="research-dialog__scroll">
+                                <article class="research-entry">
+                                    <h4>Rohith Reddy Battula</h4>
+                                    <p>Building hybrid intrusion detection systems for industrial control systems with a focus on advanced persistent threat detection.</p>
+                                </article>
+                                <article class="research-entry">
+                                    <h4>Esther Dhiramo</h4>
+                                    <p>Evaluating intelligent intrusion detection strategies for SCADA and ICS environments across machine learning, deep learning, and hybrid models.</p>
+                                </article>
+                                <article class="research-entry">
+                                    <h4>Vaishnavi Kottala</h4>
+                                    <p>Applying machine learning and deep learning models to improve DDoS detection and mitigation in 5G network environments.</p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="research-dialog" id="research-published-dialog" aria-labelledby="research-published-title" aria-modal="true" role="dialog">
+                    <a class="research-dialog__backdrop" href="#research" aria-label="Close published research list"></a>
+                    <div class="research-dialog__panel research-dialog__panel--list">
+                        <a class="research-dialog__close" href="#research" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <div class="research-dialog__content">
+                            <p class="section-kicker section-kicker--dark">Published Work</p>
+                            <h3 id="research-published-title">Published Researches</h3>
+                            <div class="research-dialog__scroll research-dialog__scroll--publications">
+                                <article class="research-entry research-entry--publication"><h4>Defending Characteristics and Attribution Analysis for Phishing Attacks</h4><p>A. Al-Sinayyid, M.J.A. Jewel, V. Mannuru, K. Sasidhar</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Analytical Study on Advanced Persistent Threat Detecting, Defending and Mitigating</h4><p>A. Al-Sinayyid, R.R. Battula, S. Kadiyala, V. Mannuru, T. Sanford, A. Sanchez</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Maximizing the Processing Rate for Streaming Applications in Apache Storm</h4><p>A. Al-Sinayyid, M. Zhu</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Comparative Analysis of AI-Powered Image Recognition for Dermatological Diagnosis</h4><p>A. Al-Sinayyid, A. Sanchez, R.R. Battula, K. Sasidhar, V. Mannuru, T. Sanford</p></article>
+                                <article class="research-entry research-entry--publication"><h4>SVM Enhanced Detection of Volume-Based Attacks in IoT Networks</h4><p>A. Al-Sinayyid, R.R. Battula, K. Sasidhar, V.M. Mannuru, A. Sanchez, T. Sanford</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Comparing Machine Learning Algorithms for Detection and Prevention of Cyber-Attacks on IoT Devices: A Literature Review</h4><p>J. Gilliland, A. Al-Sinayyid, R. Castellanos, N. Chiwele, E. Dhiramo, et al.</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Wireless Telecommunications Uprising through 4G Long Term Evolution (LTE)</h4><p>A.A.A.H. Al-Sinayyid</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Analytical Study for DDoS Detection Algorithms in Cloud Computing</h4><p>A. Higginbotham, A. Al-Sinayyid, R. Castellanos, E. Dhiramo, J. Gilliland, et al.</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Real-Time Detection of Time-Based Blind SQL Injection Using Machine Learning for Critical Infrastructure</h4><p>V. Mannuru, A. Al-Sinayyid, S. Kadiyala, R.R. Battula</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Blockchain-Based Security Algorithms Evaluation for SCADA/ICS Systems</h4><p>E. Dhiramo, A. Al-Sinayyid</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Artificial Intelligence-Driven Solutions for Phishing Detection: A Comparative Analysis of Machine Learning Models</h4><p>R. Castellanos, A. Al-Sinayyid, E. Valencia, J. Gilliland, E. Dhiramo, et al.</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Comparative Study of Defense Algorithms Against Denial of Service and Distributed Denial of Service Attacks</h4><p>N. Chiwele, A. Al-Sinayyid</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Logistic Regression-Driven Framework for Securing IoT Networks Against Protocol-Based Threats</h4><p>S. Kadiyala, A. Al-Sinayyid, V. Mannuru, R.R. Battula</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Injection Using Machine Learning for Critical</h4><p>V. Mannuru, A. Al-Sinayyid, S. Kadiyala</p></article>
+                                <article class="research-entry research-entry--publication"><h4>For Securing IoT Networks Against</h4><p>S. Kadiyala, A. Al-Sinayyid, V. Mannuru</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Random Forest and Naive Bayes for DDoS</h4><p>A. Higginbotham, A. Al-Sinayyid, E. Dhiramo</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Threat Attacks in Critical Infrastructure Using</h4><p>V. Mannuru, A. Al-Sinayyid</p></article>
+                                <article class="research-entry research-entry--publication"><h4>A Dynamic Hybrid IDS for APT Detection in ICS Using Deep Neural Networks</h4><p>R. Battula, A. Al-Sinayyid, S. Kadiyala, V. Mannuru, S. Adewumi</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Ransomware and AI Defense Mechanisms</h4><p>L. Khamboo, A. Al-Sinayyid, S. Adewumi, V. Kottala, S. Phuyal</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Random Forest and Naive Bayes for DDoS Detection in the Cloud</h4><p>A. Higginbotham, A. Al-Sinayyid, E. Dhiramo, J. Gilliland, A. Samuel, et al.</p></article>
+                                <article class="research-entry research-entry--publication"><h4>MShield LSTM Model for Detecting Insider Threat Attacks in Critical Infrastructure Using Machine Learning</h4><p>V. Mannuru, A. Al-Sinayyid, S. Kadiyala, R.R. Battula, V. Kottala</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Intelligent Intrusion Detection in Industrial Control Systems: A Comprehensive Evaluation of Machine Learning and Deep Learning Approaches</h4><p>E. Dhiramo, A. Al-Sinayyid, A. Higginbotham, J. Sanchez, J. Gilliland, et al.</p></article>
+                                <article class="research-entry research-entry--publication"><h4>AI-Driven Analysis of Cybersecurity Threats and Defense Mechanisms in 5G Networks</h4><p>V. Kottala, A. Al-Sinayyid, S. Adewumi, L. Khamboo, V. Mannuru, J. Gilliland</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Mitigating Rapid Reset DDoS Attacks in the Financial Sector: A Cybersecurity Framework</h4><p>S. Adewumi, A. Al-Sinayyid, A. Higginbotham, V. Kottala, L. Khamboo, et al.</p></article>
+                                <article class="research-entry research-entry--publication"><h4>A Multi-Layer Perceptron Approach for Detecting Network-Layer Attacks in IoT Networks</h4><p>S. Kadiyala, A. Al-Sinayyid, R. Battula, V. Mannuru</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Advancing AI: Exploring the Potentials of Multimodal Large Language Models</h4><p>M.J.A. Jewel, A. Al-Sinayyid, M. Rahman</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Analytical Study of Attacks and Defenses for IoT in Critical Infrastructure</h4><p>A. Al-Sinayyid, T. Sanford, A. Sanchez, K. Sasidhar, R.R. Battula, V. Mannuru</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Utilizing Logistic Regression to Detect Tautology-Based SQL Injection Attacks</h4><p>A. Al-Sinayyid, V. Mannuru, A. Sanchez, K. Sasidhar, R.R. Battula, T. Sanford</p></article>
+                                <article class="research-entry research-entry--publication"><h4>A Hybrid IDS for APT Detection Using BI-LSTM Ensemble Learning</h4><p>R. Battula, A. Al-Sinayyid, S. Kadiyala, V. Mannuru</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Evaluating AI-Driven Algorithms for Detection and Prevention of Code Injection Attacks</h4><p>E. Valencia, A. Al-Sinayyid, et al.</p></article>
+                                <article class="research-entry research-entry--publication"><h4>Identity Theft Detection Algorithm Using Machine Learning</h4><p>Shikhar Pandey, A. Al-Sinayyid, et al.</p></article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="research-dialog" id="researcher-shikhar-dialog" aria-labelledby="researcher-shikhar-title" aria-modal="true" role="dialog">
+                    <a class="research-dialog__backdrop" href="#research" aria-label="Close Shikhar Pandey profile"></a>
+                    <div class="research-dialog__panel research-dialog__panel--profile">
+                        <a class="research-dialog__close" href="#research" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <div class="research-dialog__content research-dialog__content--profile">
+                            <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/researchers/Shikhar_Pandey.jpg" alt="Shikhar Pandey" class="research-dialog__photo">
+                            <p class="section-kicker section-kicker--dark">Research Team Profile</p>
+                            <h3 id="researcher-shikhar-title">Shikhar Pandey</h3>
+                            <div class="profile-meta"><span class="profile-meta__label">Research Focus</span><span class="profile-meta__value">My research experience includes work on graph neural networks with applications in topological data analysis, uncovering deep structural patterns in complex systems with a modern approach.</span></div>
+                            <div class="profile-meta"><span class="profile-meta__label">Current Direction</span><span class="profile-meta__value">I am now focusing on contributing to quantum algorithm development and mathematical modeling, aiming to advance quantum-enhanced computational frameworks and explore the fundamental limits of computation, optimization, and high-dimensional inference.</span></div>
+                            <div class="profile-meta"><span class="profile-meta__label">Published Research</span><span class="profile-meta__value">Identity Theft Detection Algorithm Using Machine Learning</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="research-dialog" id="researcher-rohith-dialog" aria-labelledby="researcher-rohith-title" aria-modal="true" role="dialog">
+                    <a class="research-dialog__backdrop" href="#research" aria-label="Close Rohith Reddy Battula profile"></a>
+                    <div class="research-dialog__panel research-dialog__panel--profile">
+                        <a class="research-dialog__close" href="#research" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <div class="research-dialog__content research-dialog__content--profile">
+                            <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/researchers/Rohit_Battula.png" alt="Rohith Reddy Battula" class="research-dialog__photo">
+                            <p class="section-kicker section-kicker--dark">Research Team Profile</p>
+                            <h3 id="researcher-rohith-title">Rohith Reddy Battula</h3>
+                            <div class="profile-meta"><span class="profile-meta__label">Research Focus</span><span class="profile-meta__value">My research focuses on intrusion detection for Industrial Control Systems (ICS), with a specific interest in detecting Advanced Persistent Threats (APTs), a class of attacks that are notoriously difficult to detect because they are slow-moving, targeted, and designed to look like normal activity.</span></div>
+                            <div class="profile-meta"><span class="profile-meta__label">Approach</span><span class="profile-meta__value">Most of my work has gone into developing hybrid IDS models that combine neural network architectures like CNN and Bi-LSTM to detect these threats more reliably than traditional approaches. I test these models on established benchmarks and use CUDA and HPC resources to handle the computational load of training deep learning models on large network traffic datasets.</span></div>
+                            <div class="profile-meta"><span class="profile-meta__label">Current Work</span><span class="profile-meta__value">Applied mathematics, particularly statistical methods and self-similarity analysis, also plays a role in how I frame and validate detection problems. I am currently working under the supervision of Dr. Ali Al Sinayyid at West Virginia State University, where my most recent work has been accepted for publication in Scientific Reports (Springer Nature).</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="research-dialog" id="researcher-sheri-dialog" aria-labelledby="researcher-sheri-title" aria-modal="true" role="dialog">
+                    <a class="research-dialog__backdrop" href="#research" aria-label="Close Sheri Vishnu Vardhan Reddy profile"></a>
+                    <div class="research-dialog__panel research-dialog__panel--profile">
+                        <a class="research-dialog__close" href="#research" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <div class="research-dialog__content research-dialog__content--profile">
+                            <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/researchers/Sheri_Reddy.png" alt="Sheri Vishnu Vardhan Reddy" class="research-dialog__photo">
+                            <p class="section-kicker section-kicker--dark">Research Team Profile</p>
+                            <h3 id="researcher-sheri-title">Sheri Vishnu Vardhan Reddy</h3>
+                            <div class="profile-meta"><span class="profile-meta__label">Research Focus</span><span class="profile-meta__value">My research focuses on AI-driven cybersecurity for Industrial Control Systems (ICS). I aim to solve the challenge of accurate and reliable cyberattack detection in critical infrastructure environments while minimizing false alarm rates.</span></div>
+                            <div class="profile-meta"><span class="profile-meta__label">Approach</span><span class="profile-meta__value">My approach involves leveraging deep learning techniques such as LSTM autoencoders, hybrid detection frameworks, and time-series analysis to analyze, optimize, and improve system performance and security outcomes.</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="research-dialog" id="researcher-esther-dialog" aria-labelledby="researcher-esther-title" aria-modal="true" role="dialog">
+                    <a class="research-dialog__backdrop" href="#research" aria-label="Close Esther Dhiramo profile"></a>
+                    <div class="research-dialog__panel research-dialog__panel--profile">
+                        <a class="research-dialog__close" href="#research" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <div class="research-dialog__content research-dialog__content--profile">
+                            <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/researchers/Esther_Dhiramo.jpg" alt="Esther Dhiramo" class="research-dialog__photo">
+                            <p class="section-kicker section-kicker--dark">Research Team Profile</p>
+                            <h3 id="researcher-esther-title">Esther Dhiramo</h3>
+                            <div class="profile-meta"><span class="profile-meta__label">Research Focus</span><span class="profile-meta__value">My research focuses on intelligent intrusion detection for SCADA and Industrial Control Systems (ICS). I tackle the challenge of accurately detecting cyber intrusions and anomalies in critical infrastructure while minimizing false alarms and improving detection reliability.</span></div>
+                            <div class="profile-meta"><span class="profile-meta__label">Approach</span><span class="profile-meta__value">My work involves evaluating machine learning, deep learning, and hybrid intrusion detection methods across multiple datasets and performance metrics to optimize detection accuracy and strengthen overall system resilience.</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="research-dialog" id="researcher-luice-dialog" aria-labelledby="researcher-luice-title" aria-modal="true" role="dialog">
+                    <a class="research-dialog__backdrop" href="#research" aria-label="Close Luice Khamboo profile"></a>
+                    <div class="research-dialog__panel research-dialog__panel--profile">
+                        <a class="research-dialog__close" href="#research" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <div class="research-dialog__content research-dialog__content--profile">
+                            <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/researchers/Luice_Khamboo.jpg" alt="Luice Khamboo" class="research-dialog__photo">
+                            <p class="section-kicker section-kicker--dark">Research Team Profile</p>
+                            <h3 id="researcher-luice-title">Luice Khamboo</h3>
+                            <div class="profile-meta"><span class="profile-meta__label">Research Focus</span><span class="profile-meta__value">My research focuses on developing a machine learning-based system to detect phishing attacks that target financial services. After reviewing several research papers on cyberattacks across critical sectors, I identified phishing as one of the most common threats affecting financial institutions.</span></div>
+                            <div class="profile-meta"><span class="profile-meta__label">Approach</span><span class="profile-meta__value">The study uses phishing URL datasets to train and test machine learning models, with particular focus on Random Forest and Decision Tree models that have shown strong performance in prior studies.</span></div>
+                            <div class="profile-meta"><span class="profile-meta__label">Goal</span><span class="profile-meta__value">The goal of this research is to design and evaluate an online detection model that can analyze incoming URLs and classify them as phishing or legitimate while generating alerts when a phishing attempt is detected.</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="research-dialog" id="researcher-vaishnavi-dialog" aria-labelledby="researcher-vaishnavi-title" aria-modal="true" role="dialog">
+                    <a class="research-dialog__backdrop" href="#research" aria-label="Close Vaishnavi Kottala profile"></a>
+                    <div class="research-dialog__panel research-dialog__panel--profile">
+                        <a class="research-dialog__close" href="#research" aria-label="Close dialog"><i class="fa-solid fa-xmark"></i></a>
+                        <div class="research-dialog__content research-dialog__content--profile">
+                            <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/researchers/Vaishnavi_Kottala.jpg" alt="Vaishnavi Kottala" class="research-dialog__photo">
+                            <p class="section-kicker section-kicker--dark">Research Team Profile</p>
+                            <h3 id="researcher-vaishnavi-title">Vaishnavi Kottala</h3>
+                            <div class="profile-meta"><span class="profile-meta__label">Research Focus</span><span class="profile-meta__value">My research focuses on DDoS for 5G networks. I aim to solve the challenge of accurately detecting and mitigating DDoS attacks in high-volume, low-latency environments.</span></div>
+                            <div class="profile-meta"><span class="profile-meta__label">Approach</span><span class="profile-meta__value">My approach combines machine learning and deep learning algorithms such as Random Forest, Decision Tree, SVM, Naive Bayes, CNN, RNN, LSTM, and XGBoost to analyze network traffic patterns, improve performance, and enhance real-time threat detection.</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- CIRCLE BUTTONS -->
-  <div class="circle-menu">
-    <a href="#programs"><img src="1.jpeg"></a>
-    <a href="#CyberClinic"><img src="2.jpeg"></a>
-    <a href="#contributions"><img src="3.jpeg"></a>
-    <a href="#contact"><img src="aa.jpeg"></a>
-  </div>
-</section>
+        <section id="academics" class="content-section story-section story-section--dark">
+            <div class="story-shell">
+                <div class="story-header">
+                    <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/academics-icon.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">Degree Pathways</p>
+                        <h2>Academics</h2>
+                    </div>
+                </div>
+                <p class="section-intro section-intro--light">Academic pathways connect directly to CIC labs, research projects, and the practical skills students need for security careers.</p>
+                <div class="media-grid program-grid program-grid--four">
+                    <article class="program-card">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/cyber.jpeg" alt="Graduate students collaborating on cybersecurity research" class="media-thumb">
+                        <div class="program-info">
+                            <h3>Master of Science in Computer Science</h3>
+                            <a class="program-cta" href="https://wvstateu.edu/college-of-natural-sciences-and-mathematics/degree-program/master-of-science-in-computer-science/" target="_blank" rel="noopener">Learn more</a>
+                        </div>
+                    </article>
+                    <article class="program-card">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/cs.jpg" alt="Undergraduate students working on laptops" class="media-thumb">
+                        <div class="program-info">
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <a class="program-cta" href="https://wvstateu.edu/college-of-natural-sciences-and-mathematics/degree-program/bachelor-of-science-in-computer-science-bs/" target="_blank" rel="noopener">Learn more</a>
+                        </div>
+                    </article>
+                    <article class="program-card">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/c.jpeg" alt="Student presenting cybersecurity project" class="media-thumb">
+                        <div class="program-info">
+                            <h3>Bachelor of Science in Cybersecurity</h3>
+                            <span class="program-cta program-cta--muted">Link to be added</span>
+                        </div>
+                    </article>
+                    <article class="program-card">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/hackathon1.png" alt="Students building cybersecurity experience together" class="media-thumb">
+                        <div class="program-info">
+                            <h3>Minor in Cybersecurity</h3>
+                            <a class="program-cta" href="https://wvstateu.edu/college-of-natural-sciences-and-mathematics/wp-content/uploads/sites/9/2024/07/Minor_Cybersecurity.pdf" target="_blank" rel="noopener">Learn more</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-<!-- CONTRIBUTIONS -->
-<section id="contributions">
-  <h1>Contributions</h1>
+        <section id="googleclinic" class="content-section story-section story-section--light">
+            <div class="story-shell">
+                <div class="story-header story-header--split">
+                    <div class="story-header__main">
+                        <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/google_clinic-icon.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                        <div>
+                            <p class="section-kicker">Community Service</p>
+                            <h2>Google Cybersecurity Clinic</h2>
+                        </div>
+                    </div>
+                    <a class="cta-button research-cta" href="https://docs.google.com/forms/d/1rCBMbwLhMunYxa82r-FJuGvq4KxnYr-_nqsb9nnxu3g/edit" target="_blank" rel="noopener">Request a free service form</a>
+                </div>
+                <p class="section-intro">The WVSU Google Cybersecurity Clinic connects hands-on student experience with free cybersecurity support for organizations that need practical guidance, assessments, and implementation help.</p>
+                <figure class="clinic-feature media-story-card media-story-card--image">
+                    <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/Clinic.png" alt="Google Cybersecurity Clinic students and community support activity" class="media-thumb">
+                </figure>
+                <div class="research-board clinic-board">
+                    <article class="research-column clinic-column">
+                        <div class="research-column__header">
+                            <p class="section-kicker section-kicker--dark">Provided Services</p>
+                            <h3>Provided Services</h3>
+                        </div>
+                        <div class="research-stack">
+                            <article class="research-entry">
+                                <h4>Risk and Vulnerability Assessments</h4>
+                                <p>Security reviews that identify weaknesses, exposure points, and operational risks for partner organizations.</p>
+                            </article>
+                            <article class="research-entry">
+                                <h4>Mitigation Planning</h4>
+                                <p>Practical and step-by-step remediation guidance tailored to organizational capacity and budget.</p>
+                            </article>
+                            <article class="research-entry">
+                                <h4>Cyber Hygiene Training</h4>
+                                <p>Awareness sessions and procedural support that help staff strengthen day-to-day security behavior.</p>
+                            </article>
+                        </div>
+                    </article>
+                    <article class="research-column clinic-column">
+                        <div class="research-column__header">
+                            <p class="section-kicker section-kicker--dark">Clients</p>
+                            <h3>Clients</h3>
+                        </div>
+                        <div class="research-stack">
+                            <article class="research-entry">
+                                <h4>WVSU Police Department</h4>
+                                <p>Campus safety support.</p>
+                            </article>
+                            <article class="research-entry">
+                                <h4>Local2u Internet Service Provider</h4>
+                                <p>Regional ISP support.</p>
+                            </article>
+                            <article class="research-entry">
+                                <h4>City of Dunbar Mayor's Office</h4>
+                                <p>Municipal security guidance.</p>
+                            </article>
+                            <article class="research-entry">
+                                <h4>NuSkoolScholars</h4>
+                                <p>Education partner support.</p>
+                            </article>
+                            <article class="research-entry">
+                                <h4>South Charleston Public Library</h4>
+                                <p>Library cyber support.</p>
+                            </article>
+                        </div>
+                        <div class="research-column__footer">
+                            <a class="text-link" href="https://docs.google.com/document/d/104jxzoIpp5xKVAY_viKCkSDxZDpNZR5P/edit?usp=sharing&ouid=104700762816181178181&rtpof=true&sd=true" target="_blank" rel="noopener">Client contract</a>
+                        </div>
+                    </article>
+                    <article class="research-column clinic-column">
+                        <div class="research-column__header">
+                            <p class="section-kicker section-kicker--dark">Testimonials</p>
+                            <h3>Testimonials</h3>
+                        </div>
+                        <div class="research-stack">
+                            <article class="research-entry clinic-quote">
+                                <p>"The clinic translated technical risk into plain language our team could actually use, and the recommendations were realistic for our organization to act on."</p>
+                            </article>
+                            <article class="research-entry clinic-quote">
+                                <p>"Working with the clinic gave us a clearer picture of where our weaknesses were and what to fix first without feeling overwhelmed."</p>
+                            </article>
+                            <article class="research-entry clinic-quote">
+                                <p>"The engagement was professional, thoughtful, and genuinely helpful. It gave our staff more confidence in the security decisions we make every day."</p>
+                            </article>
+                        </div>
+                    </article>
+                </div>
+                <section class="student-resources" aria-labelledby="student-resources-title">
+                    <div class="student-resources__header">
+                        <p class="section-kicker section-kicker--dark">For Students</p>
+                        <h3 id="student-resources-title">For Students</h3>
+                    </div>
+                    <p>Students preparing for clinic work can build core knowledge, strengthen readiness, and track clinic milestones through the resources below.</p>
+                    <div class="student-resources__actions">
+                        <a class="cta-button" href="https://www.coursera.org/programs/west-virginia-state-university-rnpf1/?currentTab=CATALOG&utm_campaign=enterpriseComms.k8FjSHscTUy7bjPWnAjdlQ.enterprise.learner_communication~enterpriseComms.k8FjSHscTUy7bjPWnAjdlQ.enterpriseLearnerCommunicationTrigger~TIME%21~synVegz1EfGHrw4fdvLwhQ-RuMoVFVZRy2jKFRVWSctYQ&utm_medium=email&utm_source=other" target="_blank" rel="noopener">Google Certificate</a>
+                        <a class="cta-button cta-button--secondary" href="https://mitxonline.mit.edu/courses/course-v1:MITxT+11.S198x/" target="_blank" rel="noopener">MITx</a>
+                        <a class="cta-button student-resources__button" href="#" aria-label="Clinic progress spreadsheet link to be added">Clinic Progress Spreadsheet</a>
+                    </div>
+                </section>
+            </div>
+        </section>
 
-  <div class="grid">
-    <img src="img.jpg">
-    <img src="aa.jpeg">
-  </div>
+        <section id="achievements" class="content-section story-section story-section--dark">
+            <div class="story-shell">
+                <div class="story-header">
+                    <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/achievement-icon.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">Momentum</p>
+                        <h2>Achievements</h2>
+                    </div>
+                </div>
+                <div class="story-grid story-grid--three">
+                    <article class="story-card story-card--dark">
+                        <h3>Industry Partnerships</h3>
+                        <p>Support from Google, IBM, Amazon, and public-sector partners has helped expand the center’s reach and resources.</p>
+                    </article>
+                    <article class="story-card story-card--dark">
+                        <h3>Statewide First</h3>
+                        <p>The Google Cybersecurity Clinic launched as the first cybersecurity clinic of its kind in West Virginia.</p>
+                    </article>
+                    <article class="story-card story-card--dark">
+                        <h3>Competition Culture</h3>
+                        <p>Hackathons, applied builds, and challenge-based learning continue to define the center’s student experience.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-  <p>Free cybersecurity services through Google Clinic.</p>
-</section>
+        <section id="grants" class="content-section story-section story-section--light">
+            <div class="story-shell">
+                <div class="story-header">
+                    <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/grants-icon.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">Funding</p>
+                        <h2>Grants</h2>
+                    </div>
+                </div>
+                <div class="grant-list" role="list">
+                    <article class="grant-card story-card story-card--light" role="listitem"><p class="grant-card__index">1</p><h3>Google Cybersecurity Clinics Fund</h3><p class="grant-card__amount">$1,000,000</p><p>Establish WVSU Cybersecurity Clinic for hands-on training and community cybersecurity services.</p></article>
+                    <article class="grant-card story-card story-card--light" role="listitem"><p class="grant-card__index">2</p><h3>Kanawha County Commission Grant</h3><p class="grant-card__amount">$764,792</p><p>Establish Cybersecurity Innovation Center (CIC) at WVSU.</p></article>
+                    <article class="grant-card story-card story-card--light" role="listitem"><p class="grant-card__index">3</p><h3>U.S. Department of Energy (DoE) Joint Grant</h3><p class="grant-card__amount">$749,973</p><p>Collaborative creation of Cyber Security Center for Critical Infrastructure with Marshall University.</p></article>
+                    <article class="grant-card story-card story-card--light" role="listitem"><p class="grant-card__index">4</p><h3>Joint Grant with Marshall University</h3><p class="grant-card__amount">$500,000</p><p>Support CIC expansion and research infrastructure.</p></article>
+                    <article class="grant-card story-card story-card--light" role="listitem"><p class="grant-card__index">5</p><h3>Collaborative Research: CISE-MSI (NSF)</h3><p class="grant-card__amount">$349,681</p><p>Support collaborative research in cybersecurity and computing sciences.</p></article>
+                    <article class="grant-card story-card story-card--light" role="listitem"><p class="grant-card__index">6</p><h3>West Virginia Identity Theft Technology Hub (WVIDTH)</h3><p class="grant-card__amount">$90,000</p><p>Research on identity theft technologies and related cybersecurity efforts.</p></article>
+                    <article class="grant-card story-card story-card--light" role="listitem"><p class="grant-card__index">7</p><h3>Cisco Equipment Grant</h3><p class="grant-card__amount">$50,000</p><p>Enhance cybersecurity lab resources at WVSU.</p></article>
+                    <article class="grant-card story-card story-card--light" role="listitem"><p class="grant-card__index">8</p><h3>Appalachian Cybersecurity ACTION Planning Grant</h3><p class="grant-card__amount">$15,000</p><p>Planning for Appalachian Cybersecurity Training, Innovation and Opportunity Network.</p></article>
+                </div>
+            </div>
+        </section>
 
-<!-- ACHIEVEMENTS -->
-<section id="achievements">
-  <h1>Achievements</h1>
-  <ul>
-    <li>$1M Google Clinic</li>
-    <li>DOE Grant</li>
-    <li>Industry partnerships</li>
-  </ul>
-</section>
+        <section id="newsletter" class="content-section story-section story-section--dark">
+            <div class="story-shell">
+                <div class="story-header">
+                    <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/social_media-icon.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">Updates</p>
+                        <h2>Newsletter</h2>
+                    </div>
+                </div>
+                <div class="newsletter-stage">
+                    <div class="newsletter-stage__card">
+                        <p class="section-kicker section-kicker--dark">APRIL 2025</p>
+                        <h3>MSCC Hackathon Coming to State April 3rd!</h3>
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/newsletters/newsletter-april.png" alt="April newsletter feature" class="newsletter-stage__image">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- CLINIC -->
-<section id="CyberClinic">
-  <h1>Cyber Clinic</h1>
-  <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1761951953/clinic_zsrps4.png">
-</section>
+        <section id="get-involved" class="content-section story-section story-section--dark">
+            <div class="story-shell">
+                <div class="story-header">
+                    <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/get_involved-icon.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">Entry Points</p>
+                        <h2>Get Involved</h2>
+                    </div>
+                </div>
+                <div class="story-grid story-grid--three">
+                    <article class="story-card story-card--dark">
+                        <h3>Apply as a Student</h3>
+                        <p>Join clinic projects, research teams, and hands-on lab experiences that build practical cybersecurity readiness.</p>
+                        <a class="text-link" href="https://forms.gle/orkVSaUY4TE8mME39" target="_blank" rel="noopener">Open application</a>
+                    </article>
+                    <article class="story-card story-card--dark">
+                        <h3>Request Community Support</h3>
+                        <p>Organizations can work with the clinic to improve cybersecurity posture through student-supported consultation.</p>
+                        <a class="text-link" href="https://docs.google.com/forms/d/1rCBMbwLhMunYxa82r-FJuGvq4KxnYr-_nqsb9nnxu3g/edit" target="_blank" rel="noopener">Request service</a>
+                    </article>
+                    <article class="story-card story-card--dark">
+                        <h3>Connect with the Center</h3>
+                        <p>Partners, mentors, and faculty collaborators can help extend the center’s impact across campus and community.</p>
+                        <a class="text-link" href="mailto:ali.alsinayyid@wvstateu.edu">ali.alsinayyid@wvstateu.edu</a>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-<!-- PROGRAMS -->
-<section id="programs">
-  <h1>Programs</h1>
+        <section id="opportunities" class="content-section story-section story-section--light">
+            <div class="story-shell">
+                <div class="story-header">
+                    <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/opportunities-icon.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">Career Development</p>
+                        <h2>Opportunities</h2>
+                    </div>
+                </div>
+                <p class="section-intro">The CIC is built around a few high-impact activities that give students real work, visible outcomes, and practical cybersecurity experience.</p>
+                <div class="story-grid story-grid--four">
+                    <article class="story-card story-card--light"><h3>Hackathons</h3><p>Students travel, compete, and test their skills in team-based cybersecurity and innovation events.</p></article>
+                    <article class="story-card story-card--light"><h3>Research</h3><p>Faculty-guided projects give students direct experience with publishable work and advanced cybersecurity topics.</p></article>
+                    <article class="story-card story-card--light"><h3>Social Media Team</h3><p>Students shape the CIC's voice through content creation, storytelling, outreach, and digital branding.</p></article>
+                    <article class="story-card story-card--light"><h3>Google Clinic</h3><p>Students support real community clients through assessments, planning, and practical cybersecurity guidance.</p></article>
+                </div>
+            </div>
+        </section>
 
-  <div class="grid">
+        <section id="yellowhackets" class="content-section story-section story-section--dark">
+            <div class="story-shell">
+                <div class="story-header">
+                    <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/Yellowhackets-icon.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">Student Energy</p>
+                        <h2>YellowH@ckets</h2>
+                    </div>
+                </div>
+                <div class="yellowhackets-showcase">
+                    <div class="yellowhackets-copy">
+                        <p>YellowH@ckets is a student team inside the CIC that helps shape the center's public presence through website work, social media management, and creative storytelling around campus cybersecurity.</p>
+                        <p>We also travel to hackathons around the country, build fun side projects like robotics experiments, and sharpen our skills through capture-the-flag challenges and collaborative technical competitions.</p>
+                        <ul class="story-list">
+                            <li>Website and digital content support for the CIC</li>
+                            <li>Hackathons, CTFs, and team competitions nationwide</li>
+                            <li>Robotics builds and other hands-on creative projects</li>
+                        </ul>
+                    </div>
+                    <div class="yellowhackets-visual">
+                        <div class="yellowhackets-gallery">
+                            <article class="media-story-card media-story-card--image">
+                                <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/2.jpeg" alt="YellowH@ckets students collaborating together" class="media-thumb">
+                            </article>
+                            <article class="media-story-card media-story-card--image">
+                                <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/zz.jpeg" alt="YellowH@ckets students working side by side" class="media-thumb yellowhackets-gallery__image--zoomed">
+                            </article>
+                        </div>
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/cog-anim.png" alt="" class="yellowhackets-cog" aria-hidden="true">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <a href="https://wvstateu.edu/college-of-natural-sciences-and-mathematics/degree-program/master-of-science-in-computer-science/" target="_blank">
-      <div class="card">
-        <img src="cyber.jpeg">
-        <h3>MS Computer Science</h3>
-      </div>
-    </a>
+        <section id="club" class="content-section story-section story-section--light">
+            <div class="story-shell">
+                <div class="story-header">
+                    <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/club-icon.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">Featured Moments</p>
+                        <h2>Club</h2>
+                    </div>
+                </div>
+                <p class="section-intro">Browse club moments, hackathon snapshots, and project highlights in a scrollable carousel. Hover each frame to see the tagline.</p>
+                <div class="club-carousel" aria-label="Club image carousel">
+                    <figure class="club-carousel__card club-carousel__card--wide">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/carousel/20251117_125034.jpg" alt="YellowH@ckets team reviewing design flow together">
+                        <figcaption>YellowH@ckets team reviewing design flow together</figcaption>
+                    </figure>
+                    <figure class="club-carousel__card club-carousel__card--wide">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/carousel/20251119_132056.jpg" alt="Students testing their embedded systems project">
+                        <figcaption>Students testing their embedded systems project</figcaption>
+                    </figure>
+                    <figure class="club-carousel__card club-carousel__card--wide">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/carousel/capito.jpg" alt="CIC students meeting with Senator Shelley Moore Capito">
+                        <figcaption>CIC students meeting with Senator Shelley Moore Capito</figcaption>
+                    </figure>
+                    <figure class="club-carousel__card">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774832939/carousel/IMG_3892_2.jpg" alt="Graduating CIC students celebrating their achievement">
+                        <figcaption>Graduating CIC students celebrating their achievement</figcaption>
+                    </figure>
+                    <figure class="club-carousel__card">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/carousel/ali_cyberhive.jpg" alt="Dr. Ali working with students in the CyberHive lab">
+                        <figcaption>Dr. Ali working with students in the CyberHive lab</figcaption>
+                    </figure>
+                    <figure class="club-carousel__card club-carousel__card--wide">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/carousel/Research_carousel.JPG" alt="Research students presenting their work together">
+                        <figcaption>Research students presenting their work together</figcaption>
+                    </figure>
+                    <figure class="club-carousel__card">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/carousel/test_cyberhive.jpg" alt="Students testing cybersecurity ideas in CyberHive">
+                        <figcaption>Students testing cybersecurity ideas in CyberHive</figcaption>
+                    </figure>
+                    <figure class="club-carousel__card">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/Vegas.png" alt="CIC students representing WVSU during conference travel">
+                        <figcaption>CIC students representing WVSU during conference travel</figcaption>
+                    </figure>
+                    <figure class="club-carousel__card club-carousel__card--wide">
+                        <img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/carousel/yh-meeting.jpg" alt="YellowH@ckets members meeting and planning together">
+                        <figcaption>YellowH@ckets members meeting and planning together</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
 
-    <a href="https://wvstateu.edu/college-of-natural-sciences-and-mathematics/departments/mathematics-and-computer-science/computer-science" target="_blank">
-      <div class="card">
-        <img src="cs.jpg">
-        <h3>BS Computer Science</h3>
-      </div>
-    </a>
+        <section id="knowledge-base" class="content-section story-section story-section--dark">
+            <div class="story-shell">
+                <div class="story-header">
+                    <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/knowledge_base-icon.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">Learning Resources</p>
+                        <h2>Knowledge Base</h2>
+                    </div>
+                </div>
+                <div class="challenge-hub">
+                    <div class="challenge-hub__intro">
+                        <p class="section-kicker">Hands-On Practice</p>
+                        <h3>Challenges</h3>
+                        <p>Try a few interactive challenge experiences before diving into the Cyber Bandaid resources below.</p>
+                    </div>
+                    <div class="story-grid story-grid--three challenge-hub__grid">
+                        <article class="story-card story-card--dark challenge-hub__card">
+                            <h3>CTF Challenge</h3>
+                            <p>Test your instincts with a capture-the-flag style experience built around practical problem solving.</p>
+                            <a class="text-link" href="https://login-page-tau-red.vercel.app/" target="_blank" rel="noopener">Open the CTF</a>
+                        </article>
+                        <article class="story-card story-card--dark challenge-hub__card">
+                            <h3>Escape Room</h3>
+                            <p>Work through a cyber-themed escape room that rewards attention to detail and step-by-step reasoning.</p>
+                            <a class="text-link" href="https://escape-room-three-theta.vercel.app/" target="_blank" rel="noopener">Open the escape room</a>
+                        </article>
+                        <article class="story-card story-card--dark challenge-hub__card">
+                            <h3>More Challenges</h3>
+                            <p>Need more challenges or looking to learn?</p>
+                            <a class="text-link" href="https://picoctf.org/" target="_blank" rel="noopener">Explore picoCTF</a>
+                        </article>
+                    </div>
+                </div>
+                <div class="cyber-bandaid">
+                    <div class="cyber-bandaid__intro">
+                        <p class="section-kicker">CyberHealth Basics</p>
+                        <h3>Cyber Bandaid</h3>
+                        <p>Cyber Bandaid is a beginner-friendly set of quick fixes and smart habits for everyday digital safety. It focuses on the simple actions that prevent avoidable problems before they grow.</p>
+                    </div>
+                    <div class="story-grid story-grid--three cyber-bandaid__grid">
+                        <article class="story-card story-card--dark cyber-bandaid__card">
+                            <h3>Pick a Better Password</h3>
+                            <p>Use longer passphrases, avoid repeats, and mix unrelated words so your passwords are harder to guess and easier to remember.</p>
+                            <ul class="cyber-bandaid__list">
+                                <li>Aim for length before complexity</li>
+                                <li>Do not reuse passwords across sites</li>
+                                <li>Use a password manager when possible</li>
+                            </ul>
+                            <a class="text-link" href="https://neal.fun/password-game/" target="_blank" rel="noopener">Try this challenging password game</a>
+                        </article>
+                        <article class="story-card story-card--dark cyber-bandaid__card">
+                            <h3>Latest Fraud to Watch For</h3>
+                            <p>Be cautious with fake delivery texts, impersonation calls, urgent payment requests, and account-recovery scams designed to rush your decisions.</p>
+                            <ul class="cyber-bandaid__list">
+                                <li>Pause before acting on urgent messages</li>
+                                <li>Verify requests through known contact channels</li>
+                                <li>Never send codes or money under pressure</li>
+                            </ul>
+                            <a class="text-link" href="https://consumer.ftc.gov/scams" target="_blank" rel="noopener">Reference link to fraud watch</a>
+                        </article>
+                        <article class="story-card story-card--dark cyber-bandaid__card">
+                            <h3>How to Spot Phishing</h3>
+                            <p>Look for mismatched senders, pressure tactics, suspicious links, and messages asking you to verify credentials or payment information.</p>
+                            <ul class="cyber-bandaid__list">
+                                <li>Hover over links before clicking</li>
+                                <li>Check for spelling and sender mismatches</li>
+                                <li>Treat login-reset messages with caution</li>
+                            </ul>
+                            <a class="text-link" href="https://phishingquiz.withgoogle.com" target="_blank" rel="noopener">Take Google's phishing quiz</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <a href="https://wvstateu.edu/college-of-natural-sciences-and-mathematics/departments/mathematics-and-computer-science/computer-science" target="_blank">
-      <div class="card">
-        <img src="c.jpeg">
-        <h3>Cybersecurity</h3>
-      </div>
-    </a>
-
-    <a href="https://wvstateu.edu/college-of-natural-sciences-and-mathematics/departments/mathematics-and-computer-science/computer-science" target="_blank">
-      <div class="card">
-        <img src="aa.jpeg">
-        <h3>Minor</h3>
-      </div>
-    </a>
-
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-  <h1>Contact</h1>
-  <p>Dr. Ali Al-Sinayyid</p>
-  <p>Email: ali.alsinayyid@wvstateu.edu</p>
-</section>
-
-<script src="script.js"></script>
-
+        <section id="social-media" class="content-section story-section story-section--light">
+            <div class="story-shell">
+                <div class="story-header">
+                    <span class="section-bubble"><img src="https://res.cloudinary.com/dfd85ni55/image/upload/v1774833222/nav-icons/social_media-icon.png" alt="" class="section-bubble__icon" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">Campus Reach</p>
+                        <h2>Social Media</h2>
+                    </div>
+                </div>
+                <p class="section-intro">Short-form updates, event moments, and student highlights</p>
+                <div class="social-split">
+                    <section class="social-panel" aria-labelledby="instagram-panel-title">
+                        <div class="social-panel__header">
+                            <div>
+                                <p class="section-kicker section-kicker--dark">Instagram</p>
+                                <a class="social-link social-link--prominent" id="instagram-panel-title" href="https://www.instagram.com/wvsu_yellowhackets/?g=5" target="_blank" rel="noopener">@wvsu_yellowhackets</a>
+                            </div>
+                        </div>
+                        <p class="social-panel__summary">Follow the fastest stream of CIC activity, including event highlights, team travel, and ways you can get involved.</p>
+                        <div class="social-tag-list" aria-label="Instagram content categories">
+                            <span class="social-tag">Events</span>
+                            <span class="social-tag">Club Life</span>
+                            <span class="social-tag">Hackathons</span>
+                        </div>
+                        <div class="social-callout">
+                            <p class="social-callout__label">Quick Updates</p>
+                            <p>Photos and News posted to our Instagram will SOON be added here.</p>
+                        </div>
+                    </section>
+                    <section class="social-panel" aria-labelledby="youtube-panel-title">
+                        <div class="social-panel__header">
+                            <div>
+                                <p class="section-kicker section-kicker--dark">YouTube</p>
+                                <div class="social-channel-list" id="youtube-panel-title">
+                                    <a class="social-link social-link--prominent" href="https://www.youtube.com/@YellowHckets" target="_blank" rel="noopener">@YellowHckets</a>
+                                    <a class="social-link social-link--prominent" href="https://www.youtube.com/@WVSU1891" target="_blank" rel="noopener">@WVSU1891</a>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="social-panel__summary">Check out our latest podcasts, behind-the-scenes, shorts, and longer-form content on YouTube.</p>
+                        <div class="social-tag-list" aria-label="YouTube content categories">
+                            <span class="social-tag">Behind the Scenes</span>
+                            <span class="social-tag">Podcasts</span>
+                        </div>
+                        <div class="shorts-grid shorts-grid--feature social-youtube-grid">
+                            <iframe width="250" height="444" src="https://www.youtube.com/embed/de_XVxw7pVk" title="CIC social media short 1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="250" height="444" src="https://www.youtube.com/embed/Q2kvrEiIpgE" title="CIC social media short 2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="250" height="444" src="https://www.youtube.com/embed/GW62mZNpHdo" title="CIC social media short 3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="250" height="444" src="https://www.youtube.com/embed/1WqPB7zxiTo" title="CIC social media short 4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
